@@ -4,14 +4,14 @@
     VER:    0.1
      BY:    Aaru Koskensilta (Zaphod.B)
     VER:    0.2 - MAY2026
-     BY:    chatgpt.
+     BY:    https://github.com/PF-dev0ps.
 */
 
 #ifndef _GRP_H_
 #define _GRP_H_
 
 /* Data defines */
-using byte = unsigned char; //#define byte   unsigned char
+using byte = unsigned char; //#define byte   unsigned char *Cambios realizados
 #define word   unsigned short
 #define dword  unsigned long
 

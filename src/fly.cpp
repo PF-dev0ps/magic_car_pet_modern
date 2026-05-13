@@ -1,7 +1,12 @@
 /*
    Main unit for Magic Car Pet 3d-project
    Copyright (c) 1996 Aatu Koskensilta (Zaphod.B)
+--
+
+   VER:    0.2 - MAY2026
+   BY:    https://github.com/PF-dev0ps.
 */
+
 #include "mcpet.h"
 #include "fixed.h"
 #include "keyboard.h"

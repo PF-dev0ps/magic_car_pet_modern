@@ -1,7 +1,12 @@
 /*
    Engine-code for Magic Car Pet 3d-project.
    Copyright (c) 1996 Aatu Koskensilta (Zaphod.B)
+--
+
+   VER:    0.2 - MAY2026
+   BY:    https://github.com/PF-dev0ps.
 */
+
 #include "tp.h"
 #include "grp.h"
 #include "fixed.h"
@@ -9,7 +14,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <cmath> // #include <math.h> 
+#include <cmath> // #include <math.h> Reemplazada en líneas 74, 75 por std::sin/cos
 
 int sangle=0;
 
