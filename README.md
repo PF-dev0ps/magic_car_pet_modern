@@ -19,8 +19,8 @@ Port moderno del demo DJGPP/DOS de 1996 a C++17 + SDL2.
 ## Screenshots:
 
 <p align="center">
-  <img src="screenshots/screenshot_01.png" width="45%">
-  <img src="screenshots/screenshot_02.png" width="45%">
+  <img src="screenshots/scr01.png" width="45%">
+  <img src="screenshots/scr02.png" width="45%">
 </p>
 
 ## Teclas
