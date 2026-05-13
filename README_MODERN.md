@@ -1,6 +1,6 @@
 # Magic Car Pet / Fly - modern SDL2 port
 
-Port moderno mínimo del demo DJGPP/DOS de 1996 a C++17 + SDL2.
+Port moderno del demo DJGPP/DOS de 1996 a C++17 + SDL2.
 
 ## Qué conserva
 
