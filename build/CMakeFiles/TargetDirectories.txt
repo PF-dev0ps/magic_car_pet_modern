@@ -1,3 +1,0 @@
-/mnt/d/TMP/DOWNLOADS/magic_car_pet_modern/magic_car_pet_modern/build/CMakeFiles/fly.dir
-/mnt/d/TMP/DOWNLOADS/magic_car_pet_modern/magic_car_pet_modern/build/CMakeFiles/edit_cache.dir
-/mnt/d/TMP/DOWNLOADS/magic_car_pet_modern/magic_car_pet_modern/build/CMakeFiles/rebuild_cache.dir
