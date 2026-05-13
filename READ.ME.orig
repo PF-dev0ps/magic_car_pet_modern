@@ -1,0 +1,58 @@
+
+Hello fellow programmers!
+
+   For few days I've been working on a polygon landscape renderer. Now, when
+it's as finished as it never'll get, I decided to publish it with source.
+
+   Why? Mainly because I saw a similiar demo (Magic, by Chris Egerter),
+which was great, but didn't include any sources.
+
+   I took heightfieldmap and ground-textures-map from Chirs' demo (mine were
+terrible =)
+and documented my sources a bit. I wasn't able to get my E-mail trough,
+so I couldn't ask a permission from Chris. Sorry Chris.
+
+   About the sources: The code is for DJGPP 2.?. No assembler code is
+included (I'm not very used to this AT&T syntax yet :[ ). I haven't included
+my graphics sources (grp.cc is missing), but there's header and object file.
+All other sources are included.
+
+   MCPET.CC/.H is the actual rendering engine.
+   FLY.CC/.H is main program.
+   TPF.CC/.H is texture mapping function. (In C++ !!!!)
+   KEYBOARD.H/.O keyboard handler.
+   FIXED2.H 16.16 fixed point functions
+   FIXED.H 24.8 fixed point functions
+
+The keyboard handler isn't mine. It's written by Martynas Kunigelis, but
+I can't find the original zip. If you can tell me, where to get it, E-mail
+me.
+
+   I've also included a batch-file (compile.bat), by which you can compile
+fly.exe. 
+
+I've also included executable, fly.exe. You can use keys:
+
+      ESC         -          Quit
+      UP          -          Increase speed
+      DOWN        -          Decrease speed
+      LEFT/RIGHT  -          Turn left/right
+      Q/A         -          Go up/down
+      PGUP/PGDWN  -          Look up/down
+      U/I         -          Increase/Decrease tilt
+
+If you have any comments, questions, suggestions, flames... Anything, E-mail
+me to zaphod@sci.fi.
+
+BTW Textures don't tile very well, but they're quite good to be drawn by me...
+
+CYA
+
+Aatu Koskensilta (Zaphod.B) 1.8.1996 (That is 1st of 8th month, to you who
+think that's 8th of 1th mont)...
+
+
+
+
+
+

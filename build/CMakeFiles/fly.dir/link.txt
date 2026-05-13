@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/fly.dir/link.d CMakeFiles/fly.dir/src/fly.cpp.o CMakeFiles/fly.dir/src/mcpet.cpp.o CMakeFiles/fly.dir/src/tpf.cpp.o CMakeFiles/fly.dir/src/grp_sdl.cpp.o CMakeFiles/fly.dir/src/keyboard_sdl.cpp.o -o fly  /usr/lib/x86_64-linux-gnu/libSDL2.so
