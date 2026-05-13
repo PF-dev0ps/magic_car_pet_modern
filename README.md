@@ -16,6 +16,13 @@ Port moderno del demo DJGPP/DOS de 1996 a C++17 + SDL2.
 - `iostream.h` pre-standard -> eliminado.
 - `grp.cc`, que faltaba en los sources, fue reimplementado como `grp_sdl.cpp`.
 
+## Screenshots:
+
+<p align="center">
+  <img src="screenshots/screenshot_01.png" width="45%">
+  <img src="screenshots/screenshot_02.png" width="45%">
+</p>
+
 ## Teclas
 
 - ESC: salir
