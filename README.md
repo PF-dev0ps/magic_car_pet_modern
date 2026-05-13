@@ -33,26 +33,6 @@ cmake --build build
 ./build/fly
 ```
 
-## Windows con MSYS2
-
-Instalar MSYS2, abrir "MSYS2 UCRT64" y ejecutar:
-
-```bash
-pacman -S --needed mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-SDL2 mingw-w64-ucrt-x86_64-gdb
-cmake -S . -B build -G "MinGW Makefiles"
-cmake --build build
-./build/fly.exe
-```
-
-## Windows con vcpkg + Visual Studio Build Tools
-
-```powershell
-vcpkg install sdl2:x64-windows
-cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
-cmake --build build --config Release
-.\build\Release\fly.exe
-```
-
 ## Nota
 
 Este port es intencionalmente mínimo. No intenta modernizar el motor ni corregir lógica interna; solo reemplaza las partes DOS/VGA para que vuelva a ejecutar hoy.
