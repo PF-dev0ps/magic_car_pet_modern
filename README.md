@@ -1,6 +1,7 @@
-# Magic Car Pet / Fly - modern SDL2 port
+# Magic CarPet Fly - modern SDL2 port
 
-Port moderno del demo DJGPP/DOS de 1996 a C++17 + SDL2.
+Port moderno del demo Magic Car Pet 3d-project en DJGPP/DOS de 1996 a C++17 + SDL2.    
+Copyright (c) 1996 Aatu Koskensilta (Zaphod.B) 
 
 ## Qué conserva
 
@@ -14,7 +15,7 @@ Port moderno del demo DJGPP/DOS de 1996 a C++17 + SDL2.
 - Handler de teclado DOS -> eventos SDL2.
 - Assembler fixed-point x86 -> C++ portable con `int64_t`.
 - `iostream.h` pre-standard -> eliminado.
-- `grp.cc`, que faltaba en los sources, fue reimplementado como `grp_sdl.cpp`.
+- `grp.cc`, que faltaba en los sources originales, fue reimplementado como `grp_sdl.cpp`.
 
 ## Screenshots:
 
@@ -29,7 +30,7 @@ Port moderno del demo DJGPP/DOS de 1996 a C++17 + SDL2.
 - Flechas: acelerar/frenar/girar
 - Q/A: subir/bajar
 - PageUp/PageDown: mirar arriba/abajo
-- U/J: tilt, según el código original. El `READ.ME` decía U/I, pero el fuente usa U/J.
+- U/J: tilt, gira la cámara.
 
 ## Linux / WSL con entorno gráfico
 
