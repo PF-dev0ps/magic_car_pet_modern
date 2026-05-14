@@ -1,6 +1,7 @@
-# Magic CarPet Fly - modern SDL2 port
+# Magic Carpet Fly - modern SDL2 port
 
 Port moderno del demo Magic Car Pet 3d-project en DJGPP/DOS de 1996 a C++17 + SDL2.    
+
 Copyright (c) 1996 Aatu Koskensilta (Zaphod.B) 
 
 ## Qué conserva
