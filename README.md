@@ -1,22 +1,22 @@
 # Magic Carpet Fly - modern SDL2 port
 
-Port moderno del demo Magic Car Pet 3d-project en DJGPP/DOS de 1996 a C++17 + SDL2.    
+Magic Car Pet 3d-project demo DJGPP/DOS 1996 Modern Port to SDL2 and some new c++17 minor adaptations.
 
-Copyright (c) 1996 Aatu Koskensilta (Zaphod.B) 
+Copyright (c) 1996 Aatu Koskensilta
 
-## Qué conserva
+## What it preserves:
 
-- Código original del engine (`mcpet.cpp`) y texturizador (`tpf.cpp`) casi sin cambios.
-- Assets originales: `fade.dat`, `h256.pcx`, `g256.pcx`, `t1.pcc` ... `t6.pcc`.
-- Resolución lógica 320x200, escalada en una ventana SDL.
+- Original code of the engine (`mcpet.cpp`) and the texturizer (`tpf.cpp`) almost no changes.
+- Original Assets: `fade.dat`, `h256.pcx`, `g256.pcx`, `t1.pcc` ... `t6.pcc`.
+- Lógic Resolution 320x200, scaled to a SDL window.
 
-## Qué se reemplazó
+## What was replaced:
 
-- VGA modo `0x13` -> ventana SDL2.
-- Handler de teclado DOS -> eventos SDL2.
-- Assembler fixed-point x86 -> C++ portable con `int64_t`.
-- `iostream.h` pre-standard -> eliminado.
-- `grp.cc`, que faltaba en los sources originales, fue reimplementado como `grp_sdl.cpp`.
+- VGA `0x13` mode -> SDL2 window.
+- DOS Keyboard Handler -> SDL2 events.
+- Assembler fixed-point x86 -> portable C ++ with `int64_t`.
+- `iostream.h` pre-standard -> erased.
+- `grp.cc`, is missing in the original sources, was reimplemented as `grp_sdl.cpp`.
 
 ## Screenshots:
 
@@ -25,15 +25,15 @@ Copyright (c) 1996 Aatu Koskensilta (Zaphod.B)
   <img src="screenshots/scr02.png" width="45%">
 </p>
 
-## Teclas
+## Keys:
 
-- ESC: salir
-- Flechas: acelerar/frenar/girar
-- Q/A: subir/bajar
-- PageUp/PageDown: mirar arriba/abajo
-- U/J: tilt, gira la cámara.
+- ESC: exit
+- arrow keys: accelerate/brake-slow/turn
+- Q/A: up/down
+- PageUp/PageDown: look up/down
+- U/J: tilt the camera
 
-## Linux / WSL con entorno gráfico
+## Linux or windows WSL
 
 ```bash
 sudo apt install build-essential cmake libsdl2-dev gdb
@@ -42,6 +42,6 @@ cmake --build build
 ./build/fly
 ```
 
-## Nota
+## Note
 
-Este port es intencionalmente mínimo. No intenta modernizar el motor ni corregir lógica interna; solo reemplaza las partes DOS/VGA para que vuelva a ejecutar hoy.
+This port is intencionally mínimun. It does not aim to modernize the engine or correct the internal logic; it simply replaces the old DOS/VGA PART so that it works again today.
